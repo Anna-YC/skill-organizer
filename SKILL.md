@@ -1,6 +1,6 @@
 ---
 name: skill-organizer
-description: 体检并优化本机 AI Agent 的技能（skills）目录。当用户说"帮我整理技能 / 技能体检 / 优化 skills / 技能去重 / 技能迁移 / skills doctor / 整理 .agents 或 .claude 里的技能"时使用。扫描各工具技能目录（~/.agents/skills、~/.claude/skills、~/.codex/skills 等），检出断链、同名副本、嵌套不可见技能、硬编码路径等问题，并在用户确认后把技能收敛为"真身唯一、软链接桥接"架构。首次运行只读不改。
+description: 像"整理师"一样把本机各 AI 工具的技能（skills）目录梳理归一。扫描各工具技能目录（~/.agents/skills、~/.claude/skills、~/.codex/skills 等），检出断链、同名副本、嵌套不可见技能、硬编码路径等问题，并在用户确认后把技能收敛为"真身唯一、软链接桥接"架构。当用户说"整理技能 / 技能整理师 / skill 整理 / 技能体检 / 优化 skills / 技能去重 / 技能迁移 / skills-doctor / 整理 .agents 或 .claude 里的技能"，或抱怨技能乱、重复装、点了没反应时，即使没点名工具也要用本 skill。首次运行只读不改。
 ---
 
 # Skill 整理师（skill-organizer）— 技能目录体检与归一

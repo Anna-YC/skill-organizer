@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🩺 skills-doctor
+# 🩺 Skill 整理师（skill-organizer）
 
 **真身唯一 · 软链接桥接**
 **让几十个技能在所有 AI Agent 之间：改一处、处处生效**
@@ -11,7 +11,7 @@
 ![Shell](https://img.shields.io/badge/bash-3.2%2B-4EAA25?logo=gnu-bash&logoColor=white)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
 ![Mode](https://img.shields.io/badge/首次运行-只读体检-00B884)
-[![Stars](https://img.shields.io/github/stars/Anna-YC/skills-doctor?style=social)](https://github.com/Anna-YC/skills-doctor/stargazers)
+[![Stars](https://img.shields.io/github/stars/Anna-YC/skill-organizer?style=social)](https://github.com/Anna-YC/skill-organizer/stargazers)
 
 **安装 · 一条命令**
 
@@ -36,7 +36,7 @@ git clone --depth 1 https://github.com/Anna-YC/skill-organizer ~/.agents/skills/
 | 🔗 **死链与坏路径** | 技能一搬家，内部写死的路径全断 |
 | 🕳️ **嵌套黑洞** | 发现机制只扫一层，多套一层的技能永远不可见 |
 
-skills-doctor 用一套经过实战验证的架构把它们治好：**跨工具技能的真身只留一份在 `~/.agents/skills/`，其余工具目录只放软链接。**
+Skill 整理师（skill-organizer）用一套经过实战验证的架构把它们治好：**跨工具技能的真身只留一份在 `~/.agents/skills/`，其余工具目录只放软链接。**
 
 ---
 
@@ -119,7 +119,7 @@ flowchart LR
 **1️⃣ 直接跑只读体检脚本**（不改任何文件）：
 
 ```bash
-bash ~/.agents/skills/skills-doctor/scripts/skills_audit.sh
+bash ~/.agents/skills/skill-organizer/scripts/skills_audit.sh
 ```
 
 **2️⃣ 或者对 Agent 说任意一句**：
