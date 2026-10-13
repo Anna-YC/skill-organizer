@@ -1,9 +1,9 @@
 ---
-name: skills-doctor
+name: skill-organizer
 description: 体检并优化本机 AI Agent 的技能（skills）目录。当用户说"帮我整理技能 / 技能体检 / 优化 skills / 技能去重 / 技能迁移 / skills doctor / 整理 .agents 或 .claude 里的技能"时使用。扫描各工具技能目录（~/.agents/skills、~/.claude/skills、~/.codex/skills 等），检出断链、同名副本、嵌套不可见技能、硬编码路径等问题，并在用户确认后把技能收敛为"真身唯一、软链接桥接"架构。首次运行只读不改。
 ---
 
-# Skills Doctor — 技能目录体检与归一
+# Skill 整理师（skill-organizer）— 技能目录体检与归一
 
 帮用户把散落在各工具目录的技能收敛为**真身唯一、软链接桥接**的架构：跨工具技能的真身只留一份在 `~/.agents/skills/`（ZCode 等原生读取的中立目录），其余工具目录只放软链接。完整原理见 [references/methodology.md](references/methodology.md)。
 

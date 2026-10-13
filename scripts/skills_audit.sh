@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# skills-doctor v1.0 — 技能目录体检（只读，不改任何文件）
+# skill-organizer（Skill 整理师）v1.1 — 技能目录体检（只读，不改任何文件）
 # 用法: bash skills_audit.sh
 # 兼容 macOS 自带 bash 3.2（不使用关联数组）
 

@@ -16,7 +16,7 @@
 **安装 · 一条命令**
 
 ```bash
-git clone --depth 1 https://github.com/Anna-YC/skills-doctor ~/.agents/skills/skills-doctor
+git clone --depth 1 https://github.com/Anna-YC/skill-organizer ~/.agents/skills/skill-organizer
 ```
 
 兼容 ZCode（原生）· Claude Code · Codex · WorkBuddy 等一切带 skills 目录的 Agent
@@ -125,7 +125,7 @@ bash ~/.agents/skills/skills-doctor/scripts/skills_audit.sh
 **2️⃣ 或者对 Agent 说任意一句**：
 
 > - 「帮我体检一下技能目录」
-> - 「运行 skills-doctor，看看我的 skills 有没有问题」
+> - 「运行 skill-organizer / skills-doctor，看看我的 skills 有没有问题」
 > - 「把这些工具里的技能去重、整理到 .agents」
 
 **3️⃣ 检出的六类问题**：环境盘点 · 断链 · 同名实体副本 · 嵌套不可见技能 · 缺 SKILL.md 条目 · 硬编码绝对路径
